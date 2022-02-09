@@ -20,7 +20,10 @@ console.log(a, b, c) //10,10,10
 
 let p = prompt("Quantas horas você trabalha por dia?") //horasTrabalhadas
 let t = prompt("Quanto você recebe por dia?") //valorPorDia
-alert(`Voce recebe ${t/p} por hora`) //valorPorHora
+
+/*let horasTrabalhadas = prompt("Quantas horas você trabalha por dia?") 
+let valorPorDia = prompt("Quanto você recebe por dia?")
+alert(`Voce recebe ${valorPorDia/horasTrabalhadas} por hora`) //valorPorHora*/
 
 ////////////////////////////////////////////////////
 //////// Exercícios de escrita de código //////////
