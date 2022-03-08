@@ -46,7 +46,7 @@ if (idadeUsuario >= 18) {
 }
 
 
-        //Exercicio 2 
+     //Exercicio 2 
 
 let turno = prompt("Insirai seu turno: (M (matutno) ou V (Vespertino) ou N (Noturno))").toUpperCase()
 
