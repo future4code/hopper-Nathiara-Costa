@@ -94,3 +94,4 @@ function sacolao(objeto) {
 sacolao([fruta1, fruta2, fruta3])
 console.log(carrinho)
 */
+  
