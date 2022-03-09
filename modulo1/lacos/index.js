@@ -81,21 +81,9 @@ function imprimeArrayDividido(array){
     } 
     console.log(novoArray)   
 }
-*/
 
-// let arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
-// imprimeArrayDividido(arrayOriginal)
 
-// function imprimeArrayDividido(array){
-//     let novoArray = []
-//     for (let i of array){
-//        if (i % 2 === 0){
-//            novoArray.push(i)
-//        }
-
-//     } 
-//     console.log(novoArray)   
-// }
+E)
 let arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
 
 function mostrarMaiorMenor(array) {
@@ -114,3 +102,4 @@ function mostrarMaiorMenor(array) {
 }
 mostrarMaiorMenor(arrayOriginal)
 
+*/
