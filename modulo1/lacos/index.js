@@ -4,7 +4,7 @@
 
 ///////////////Exercícios de interpretação de código/////////////////////
 
-        //Exercicio 1 
+//Exercicio 1 
 /*
 R: O codigo está incrementando valores a variavel valor atraves de um laço for, que no caso do exemplo o for vai executar 4 vezes que é a condição dele. 
 
@@ -40,12 +40,77 @@ if(bichoDeEstimacao <= 0 ){
 }else {
     let nomes = []
 for(let i=0; i < bichoDeEstimacao; i++) {
-   nomes[i]= prompt("insira o nome do seu bicho")
+ nomes.push(prompt("insira o nome do seu bicho"))
 
 }
     console.log(nomes)
 }
 
         // Exercicio 2 
+A)
+    let arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+imprimeArray(arrayOriginal)
+
+function imprimeArray(array){
+    for (let i of array){
+        console.log(i)
+    }    
+}
+
+B)
+let arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+imprimeArrayDividido(arrayOriginal)
+
+function imprimeArrayDividido(array){
+    for (let i of array){
+        console.log(i / 10)
+    }    
+}
+
+C)
+let arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+imprimeArrayDividido(arrayOriginal)
+
+function imprimeArrayDividido(array){
+    let novoArray = []
+    for (let i of array){
+       if (i % 2 === 0){
+           novoArray.push(i)
+       }
+
+    } 
+    console.log(novoArray)   
+}
 */
+
+// let arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+// imprimeArrayDividido(arrayOriginal)
+
+// function imprimeArrayDividido(array){
+//     let novoArray = []
+//     for (let i of array){
+//        if (i % 2 === 0){
+//            novoArray.push(i)
+//        }
+
+//     } 
+//     console.log(novoArray)   
+// }
+let arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+
+function mostrarMaiorMenor(array) {
+    let valorMaximo = 0
+    let valorMinimo = 99999
+
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] > valorMaximo){
+        valorMaximo = array[i]
+    }
+    if(array[i]< valorMinimo){
+        valorMinimo = array[i]
+    }
+  }
+  console.log(`O maior número é ${valorMaximo} e o menor é ${valorMinimo}`);
+}
+mostrarMaiorMenor(arrayOriginal)
 
