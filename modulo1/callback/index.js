@@ -84,5 +84,124 @@ let descontoPet = racaPets.map((pets)=>{
 
 console.log(descontoPet)
 
-   */
+   
+
+
+        //Exercicio 2 
+
+A)
+    const produtos = [
+    { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
+    { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
+    { nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
+    { nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
+    { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
+    { nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
+    { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
+    { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
+    { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
+    { nome: "Sabão em Pó Ypê", categoria: "Limpeza", preco: 10.80 }
+ ]
+
+ let nomesProdutos = produtos.map((produtos, indice, Array) => {
+    return produtos.nome 
+})
+
+console.log(nomesProdutos)
+
+B) ** Exercicio imcompleto** // tentando colocar a procentagem
+
+const produtos = [
+    { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
+    { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
+    { nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
+    { nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
+    { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
+    { nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
+    { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
+    { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
+    { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
+    { nome: "Sabão em Pó Ypê", categoria: "Limpeza", preco: 10.80 }
+ ]
+ let nomesProdutos = produtos.filter((produtos, indice, Array) => {
+    return produtos.preco - (produtos.preco * 0.05), produtos.nome
+})
+
+
+
+console.log(nomesProdutos)
+
+
+C)
+    const produtos = [
+        { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
+        { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
+        { nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
+        { nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
+        { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
+        { nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
+        { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
+        { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
+        { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
+        { nome: "Sabão em Pó Ypê", categoria: "Limpeza", preco: 10.80 }
+    ]
+
+    let nomesProdutos = produtos.filter((produtos, indice, Array) => {
+        return produtos.nome, produtos.categoria === "Bebidas"
+    })
+
+    console.log(nomesProdutos)
+
+D)
+    const produtos = [
+    { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
+    { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
+    { nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
+    { nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
+    { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
+    { nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
+    { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
+    { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
+    { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
+    { nome: "Sabão em Pó Ypê", categoria: "Limpeza", preco: 10.80 }
+ ]
+
+ let nomesProdutos = produtos.filter((produtos, indice, Array) => {
+    return produtos.nome.includes("Ypê")
+})
+
+console.log(nomesProdutos)
+
+E)
+    const produtos = [
+    { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
+    { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
+    { nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
+    { nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
+    { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
+    { nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
+    { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
+    { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
+    { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
+    { nome: "Sabão em Pó Ypê", categoria: "Limpeza", preco: 10.80 }
+ ]
+
+ let nomesProdutos = produtos.filter((produtos, indice, Array) => {
+    return produtos.nome.includes("Ypê")
+})
+
+let descontoProdutos = nomesProdutos.map((produtos)=>{
+    console.log(` Compre ${produtos.nome} por ${produtos.preco}`)
+})
+
+console.log(descontoProdutos)
+
+
+
+
+*/
+ 
+ 
+
+
 
