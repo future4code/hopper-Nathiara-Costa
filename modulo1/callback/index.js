@@ -31,7 +31,7 @@ A) 0: nome: Amanda Rangel, apelido: Mandi
 
         //Exercicio 1 
 A)
- const pets = [
+        const pets = [
             { nome: "Lupin", raca: "Salsicha"},
             { nome: "Polly", raca: "Lhasa Apso"},
             { nome: "Madame", raca: "Poodle"},
@@ -45,8 +45,44 @@ A)
         })
 
         console.log(nomesPets)
-   */
- 
 
-            
-        
+
+B)  
+    const pets = [
+        { nome: "Lupin", raca: "Salsicha" },
+        { nome: "Polly", raca: "Lhasa Apso" },
+        { nome: "Madame", raca: "Poodle" },
+        { nome: "Quentinho", raca: "Salsicha" },
+        { nome: "Fluffy", raca: "Poodle" },
+        { nome: "Caramelo", raca: "Vira-lata" },
+    ]
+
+    let racaPets = pets.filter((pets, indice, Array) => {
+        return pets.nome, pets.raca === "Salsicha"
+    })
+
+    console.log(racaPets)
+
+
+C)
+    const pets = [
+    { nome: "Lupin", raca: "Salsicha" },
+    { nome: "Polly", raca: "Lhasa Apso" },
+    { nome: "Madame", raca: "Poodle" },
+    { nome: "Quentinho", raca: "Salsicha" },
+    { nome: "Fluffy", raca: "Poodle" },
+    { nome: "Caramelo", raca: "Vira-lata" },
+]
+
+let racaPets = pets.filter((pets, indice, Array) => {
+    return pets.nome, pets.raca === "Poodle"
+})
+
+let descontoPet = racaPets.map((pets)=>{
+    console.log(`Você ganhou um cupom de desconto de 10% para tosar o/a ${pets.nome}!`) 
+})
+
+console.log(descontoPet)
+
+   */
+
