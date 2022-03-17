@@ -5,17 +5,15 @@
 
 // EXERCÍCIO 01
 function retornaTamanhoArray(array) {
-    const arrayDeElementos = ["batata", "cenoura", "beterraba", "pepino"]
-   return array.length
+    return array.length
 }
-console.log(retornaTamanhoArray)
+
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  const arrayOriginal = [ 1,2,3,4,5]
-  return array.reverse()
+  
 }
-console.log(retornaArrayInvertido)
+
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
