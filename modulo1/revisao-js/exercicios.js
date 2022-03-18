@@ -110,23 +110,23 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
     let novoArray = array.sort((a, b) => a - b)
-    return [novoArray[novoArray.length -2], novoArray[1]]
+    return [novoArray[novoArray.length - 2], novoArray[1]]
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-return `Venha assistir ao filme ${filme.nome }, de ${filme.ano }, dirigido por ${filme.diretor } e estrelado por ${filme.atores } .`
+    return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores.join(', ')}.`
 
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-let novoObjeto = {
-    pessoa: pessoa
-};
-     
-   novoObjeto.pessoa["nome"] = "ANÔNIMO"
-   return novoObjeto.pessoa
+    let novoObjeto = {
+        pessoa: pessoa
+    };
+
+    novoObjeto.pessoa["nome"] = "ANÔNIMO"
+    return novoObjeto.pessoa
 }
 
 // EXERCÍCIO 13A
