@@ -44,22 +44,28 @@ for (i = 0; i < array.length; i++) {
     }
 }
 
-return numerosPares
-}
+ return numerosPares
+ }
 
 
-// EXERCÍCIO 05
+// EXERCÍCIO 05 
 function retornaNumerosParesElevadosADois(array) {
- let numeroAoQuadrado = array.map(2 , (i) =>{
-     return Math.pow(i, 2);
- })
+    let numerosPares = array.filter(i => i % 2 === 0);
 
- return numeroAoQuadrado
+    let numeroAoQuadrado = numerosPares.map((2, (i) => {
+        return Math.pow(i, 2);
+    }));
+
+    return numeroAoQuadrado;
 }
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  let maiorNumero = array.reduce((a,b)=> {
+      return Math.max(a,b);
+  })
+
+  return maiorNumero
 }
 
 // EXERCÍCIO 07
