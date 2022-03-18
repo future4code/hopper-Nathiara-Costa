@@ -96,16 +96,6 @@ function retornaNPrimeirosPares(n) {
 }
 
 
-//     let numerosPares = [];
-//     for (let i = 0; i < n; i++) {
-//         if (i % 2 == 0) {
-//             numerosPares.push(i)
-//         }
-//     }
-//     return numerosPares;
-// }
-// retornaNNumerosPares(5) 
-
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
 
