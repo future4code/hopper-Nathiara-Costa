@@ -32,8 +32,26 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+let numerosPares = [] 
+let numeroImpares = []
+
+for (i = 0; i < array.length; i++) {
+    if (array[i] % 2 === 0) {
+        numerosPares.push(array[i])
+    } else {
+        numeroImpares.push(array[i])
+    }
 }
+
+return numerosPares
+}
+
+
+
+         
+     
+ 
+
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
