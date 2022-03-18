@@ -71,15 +71,15 @@ function retornaMaiorNumero(array) {
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
     let menorNumero = Math.min(num1, num2)
-    
+
     let objeto = {
         maiorNumero: Math.max(num1, num2)
-        ,maiorDivisivelPorMenor: false
-        ,diferenca: 0
+        , maiorDivisivelPorMenor: false
+        , diferenca: 0
     };
     objeto.maiorDivisivelPorMenor = objeto.maiorNumero % menorNumero === 0
     objeto.diferenca = objeto.maiorNumero - menorNumero
-   
+
     return objeto
 }
 
@@ -98,7 +98,13 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+    if (ladoA === ladoB && ladoA === ladoC && ladoB === ladoC ) {
+        return "Equilátero"
+    } else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
+        return "Isósceles"
+    } else {
+        return "Escaleno"
+    };    
 }
 
 // EXERCÍCIO 10
