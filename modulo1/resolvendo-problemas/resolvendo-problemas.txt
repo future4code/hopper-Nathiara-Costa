@@ -1,0 +1,22 @@
+------------ 7 Passos para Resolver problemas na programação --------------
+
+1 - Ler com atenção o enunciado 
+ no enunciado podemos identificar o que o codigo deve fazer e as informações que farão diferença para o desenvolvimento. 
+
+2-  Retirar informações impotantes
+ podemos retirar do proprio enunciado, palavras chaves que podem ser usadas como nomes de variaveis, vertbos que servirão na criação de funçoes e condições para o codigo. 
+
+3- Pensar entrada e saídas 
+  pegar informações de quais dados deverão ser recebidos e quais devem seras possiveis respostas para ciação de funções. 
+
+4- Fazer um esquema visual 
+  criar exemplos de situações, montar diagramas e possivels cenarios com as entradas e saidas capturadas 
+
+5- Criar um codigo feio 
+ colocar no papel todas as possiveis soluções e testar todas soluções até obter o resultado esperado pelo enunciado 
+
+6 - Testar força bruta 
+ criar um solução obvia, escrito no nosso idioma e depois transcrever para a linguagem de programação 
+
+7- Refatorar
+ dar bons nomes as variaveis e funçoes, analisar cada etapa do codigo e debugar verificando possiveis erros. 
