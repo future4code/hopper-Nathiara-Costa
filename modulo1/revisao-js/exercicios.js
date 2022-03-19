@@ -179,5 +179,8 @@ function retornaArrayOrdenadoAlfabeticamente(consultas) {
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
-
+    let consultasOrdenadas = consultas.sort(function(a,b) {
+        return new Date(a.dataDaConsulta) < new Date(b.dataDaConsulta) ? -1 : new Date(a.dataDaConsulta) > new Date(b.dataDaConsulta) ? 1 : 0;
+    });
+    return consultasOrdenadas
 }
