@@ -131,7 +131,13 @@ function retornaPessoaAnonimizada(pessoa) {
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
+    const result = pessoas.filter(checkPermission);
+    
+    function checkPermission(pessoas) {
+      return pessoas.altura >= 1.5 && pessoas.idade > 14 && pessoas.idade < 60
+    }
 
+    return result
 }
 
 // EXERCÍCIO 13B
