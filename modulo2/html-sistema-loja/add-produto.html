@@ -5,51 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Saias</title>
+    <title>Adicionar Saia</title>
+    <link rel="icon" href="./img/logo.jpg">
+    <link rel="stylesheet" type=" text/css" href="produto.css">
 </head>
 
 <body>
     <div>
-        <p>Sinha D' Chita</p>
+        <h2>Sinha D' Chita</h2>
     </div>
-
-    <h2>Adicionar Produto</h2>
+<fieldset>
+    <h2 id="titulo">Adicionar Produto</h2>
+</fieldset>
+    
     <form action="#">
-        <div>
-            <label for="link-foto">Link para foto: </label>
-            <input type="url" id="link-foto" name="link-foto">
-
-        </div>
-
-        <div>
-            <label for="descricao">Descrição do produto: </label>
-            <!-- Adicione o id apropriado para o input abaixo -->
-            <input type="text" id="Saia de chita Amarela" name="descrição">
-        </div>
-
-        <div>
-            <label for="preco">Preço (em R$): </label>
-            <!-- Adicione o id apropriado e o type para receber números abaixo -->
-            <input type="number" id="R$30,00" name="preço">
-        </div>
-
-        <div>
-            <!-- Preencha as propriedades necessárias para os elementos abaixo -->
-            <label>Quantidade disponível: </label>
-            <input type="number" id="5" name="quantidade">
-        </div>
-
-        <div class="form-add">
-            <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-            <button type="button">Adicionar</button>
-        </div>
-
-    </form>
+        <fieldset>
+            <div class="campo">
+                <label for="link-foto"><strong>Link para foto:</strong> </label>
+                <input type="url" id="link-foto" name="link-foto">
+    
+            </div>
+    
+            <div class="campo">
+                <label  for="descricao"><strong>Descrição do produto:</strong></label>
+                <!-- Adicione o id apropriado para o input abaixo -->
+                <input type="text" id="Saia de chita Amarela" name="descrição">
+            </div>
+    
+            <div class="campo">
+                <label for="preco"><strong>Preço (em R$):</strong></label>
+                <!-- Adicione o id apropriado e o type para receber números abaixo -->
+                <input type="number" id="R$30,00" name="preço">
+            </div>
+    
+            <div class="campo">
+                <!-- Preencha as propriedades necessárias para os elementos abaixo -->
+                <label><strong>Quantidade disponível:</strong> </label>
+                <input type="number" id="5" name="quantidade">
+            </div>
+    
+            <div class="form-add"  >
+                <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
+                <button type="button"><strong>Adicionar</strong></button>
+            </div>
+    
+        </form>
+        </fieldset>
+        
 
     <div>
-        <button type="button"><a href="./index.html">Página Inicial</a></button>
-        <button type="button"><a href="./ctrl-estoque.html">Controle de Estoque</a></button>
-        <button type="button"><a href="./funcionarios.html">Funcionários</a></button>
+        <button type="button"><a href="./index.html"><strong>Página Inicial</strong></a></button>
+        <button type="button"><a href="./ctrl-estoque.html"><strong>Controle de Estoque</strong></a></button>
+        <button type="button"><a href="./funcionarios.html"><strong>Funcionários</strong></a></button>
     </div>
 
 
