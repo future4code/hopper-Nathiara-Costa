@@ -160,6 +160,12 @@ input {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    
+}
+
+#back-button{
+    margin-left: 650px;
+    margin-top: 100px ;
 }
 
 #back-button:hover {
