@@ -23,9 +23,7 @@ input {
 }
 
 button:focus :hover  {
-    color: white;
-    
-    
+    color: white;    
 }
 
 
@@ -176,4 +174,12 @@ input {
 img {
     width: 40px;
     height: 40px;
+}
+
+.btn :hover{
+    background-color: rgb(233, 182, 17);
+}
+.btn :focus{
+    background-color: rgb(233, 182, 17);
+    color:white;
 }
