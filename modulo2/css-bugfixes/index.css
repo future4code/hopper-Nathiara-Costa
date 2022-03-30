@@ -21,9 +21,13 @@ input {
     width: 500px;
 }
 
-button:focus {
+button:focus :hover  {
     color: white;
+    
+    
 }
+
+
 
 img {
     width: 100px;
@@ -34,7 +38,7 @@ div>p:first-child {
 }
 
 
-.botao-amarelo {
+.botao-amarelo  {
     background-color: #ffaf43;
     width: 250px;
     height: 40px;
@@ -68,15 +72,16 @@ div>p:first-child {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
-    padding: 25px 0px;
+    padding: 100px 0px;
 }
 
 #container-de-descricao>ol {
-    padding: 30px 570px;
+    padding: 10px 570px;
 }
 
 #container-para-comprar {
     background-color: #e7eb90;
+    padding: 100px 0px;
 }
 
 #container-para-comprar>p {
@@ -85,11 +90,24 @@ div>p:first-child {
     font-size: 60px;
 }
 
-.botao-amarelo {
-    display: block;
+
+.botao-amarelo :focus  {
+    
     margin-left: 550px;
-    margin-top: 100px;
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
 }
+    
+ #container-para-comprar>br{
+    padding: 100px 0;
+    margin-top: 50px;
+
+ }
+
 
 
 
@@ -110,7 +128,7 @@ table {
     margin-left: 300px;
 }
 
-td button {
+td button{
     background-color: #fadf63;
     width: 150px;
     height: 30px;
@@ -119,9 +137,17 @@ td button {
     
 }
 
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+}
+
+input {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    
 }
 
 
@@ -137,6 +163,7 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+   
 }
 
 img {
