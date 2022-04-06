@@ -9,16 +9,67 @@
 
 </head>
 <body>
-    <header>
-        <div class="logo">LabeTube</div>
-        <form action="#" method="post">
-            <input type="text" name="busca" id="busca" placeholder="Buscar" required>
-        </form>
-    </header>
-    <main>
+    <div>
+        <div class="tela-inteira">
+            <header>
+                <h1>LabeTube</h1>
+                <form action="#" method="post">
+                    <input type="text" name="busca" id="busca" placeholder="Buscar" required>
+                </form>
+            </header>
+            <main>
+                <nav class="menu-vertical">
+                    <ul>
+                      <li class="btn-vertical">Início</li>
+                      <li class="btn-vertical">Em alta</li>
+                      <li class="btn-vertical">Inscrições</li>
+                      <hr />
+                      <li class="btn-vertical">Originais</li>
+                      <li class="btn-vertical">Histórico</li>
+                    </ul>
+                    </nav>
         
-    </main>
-
-<footer>Oi, eu moro no Footer</footer>
+                    <section class="painel-de-videos">
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/1.mp4 " type="video/mp4" alt=""></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/10.mp4" type="video/mp4"alt="" ></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/9.mp4" type="video/mp4" alt="" ></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/8.mp4 " type="video/mp4" alt=""></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/7.mp4" type="video/mp4" alt=""></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/6.mp4" type="video/mp4" alt=""></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/5.mp4" type="video/mp4" alt="" ></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/4.mp4"  type="video/mp4" alt="" ></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                      </section>
+            </main>
+        
+        <footer> 
+            <h3>Oi, eu moro no Footer</h3>
+        </footer>
+        </div>
+    </div>
+   
 </body>
 </html>
