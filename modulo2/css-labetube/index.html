@@ -18,28 +18,19 @@
                 </form>
             </header>
             <main>
-                <nav class="menu-vertical">
-                    <ul>
-                      <li class="btn-vertical">Início</li>
-                      <li class="btn-vertical">Em alta</li>
-                      <li class="btn-vertical">Inscrições</li>
-                      <hr />
-                      <li class="btn-vertical">Originais</li>
-                      <li class="btn-vertical">Histórico</li>
-                    </ul>
-                    </nav>
-        
                     <section class="painel-de-videos">
                         <div class="box-pagina-principal" onClick={reproduzVideo}>
-                          <video src="https://storage.googleapis.com/future-apis.appspot.com/1.mp4 " type="video/mp4" alt=""></video>
+                          <a href="detalhe.html"><video src="https://storage.googleapis.com/future-apis.appspot.com/1.mp4 " type="video/mp4" alt=""></video></a>
                           <h4>{titulo}</h4>
                         </div>
                         <div class="box-pagina-principal" onClick={reproduzVideo}>
-                          <video src="https://storage.googleapis.com/future-apis.appspot.com/10.mp4" type="video/mp4"alt="" ></video>
+                          <video controls  autoplay="true">
+                              <source src="https://storage.googleapis.com/future-apis.appspot.com/10.mp4"  type="video/mp4"alt="">
+                          </video>
                           <h4>{titulo}</h4>
                         </div>
                         <div class="box-pagina-principal" onClick={reproduzVideo}>
-                          <video src="https://storage.googleapis.com/future-apis.appspot.com/9.mp4" type="video/mp4" alt="" ></video>
+                          <a href="detalhe2.html"><video src="https://storage.googleapis.com/future-apis.appspot.com/9.mp4" type="video/mp4" alt="" ></video></a>
                           <h4>{titulo}</h4>
                         </div>
                         <div class="box-pagina-principal" onClick={reproduzVideo}>
