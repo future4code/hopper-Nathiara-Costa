@@ -300,7 +300,7 @@ li {
 .img-perfil{
     height: 290px;
     position: absolute;
-    bottom: 20px;
+    bottom: 25%;
     left: 35%;
     transform: translateX(-50%);
      transform: translateY(-50%);
