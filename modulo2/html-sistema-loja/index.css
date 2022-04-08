@@ -1,0 +1,73 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background-color: rgb(240, 213, 179);
+    font-size: 1em;
+    font-family: sans-serif;
+    margin-left: 0%;
+    margin-top: 2%;
+    justify-content: center;
+}
+img {
+    border-radius: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+
+button:hover{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-radius: 10px;
+    border-color: blueviolet;
+    background-color: rgb(235, 133, 10);
+
+    
+}
+
+fieldset {
+    border: 0;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.titulo{
+    font-family: sans-serif;
+    color: #380B61;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 0.2em 0.6em;
+}
+
+.paragrafo{
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.redes img:hover{
+    
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+     border-bottom-left-radius: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 0.3em 0.3em;
+    margin-bottom: 0.1em;
+ 
+}
+
+
+button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
