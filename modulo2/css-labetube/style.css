@@ -1,14 +1,17 @@
 *{
-    width: 100%;
+  
     margin: 0;
     padding: 0;
+    
 }
 
 body{
     font-family: 'Courier New', Courier, monospace;
     background-origin: border-box;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
+    display: flex;
+    height: 100vh;
 }
 
 .tela-inteira {
@@ -23,22 +26,22 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
-    height: 10%;
-    
+    height: 4vh;
+    flex-direction: row;
    
 }
 
 form{
-    border: 1px solid whitesmoke;
-    border-radius: 0.3em;
-    padding: 0.3em;
-    margin: 5%;
+    font-size: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1vh 3vh;
+
 }
 form input{
     font-size: 1.2em;
     border-radius: 0.2em;
     border: none;
-    padding: 0.1em;
     cursor: pointer;
 }
 
@@ -47,11 +50,12 @@ form :focus{
 }
 
 main{
-    min-width: 300px;
-    max-width: 1000px;
-   min-height: 80%;
-   display: flex;
-   margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 2vh;
+    text-align: center;
+    height: auto;
 }
 main video{
     width: 100%;
@@ -67,13 +71,14 @@ main video{
     list-style-type: none; 
 }
 .painel-de-videos {
-    flex-grow: 1;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    row-gap: 10px;
-    column-gap: 10px;
-    margin: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 3vh;
+    column-gap: 3vw;
+    padding: 6vh;
+    justify-items: center;
+    align-items: center;
   }
   
   .box-pagina-principal {
@@ -87,13 +92,15 @@ main video{
   }
   
   footer {
-    background: #333b3e;
-    color: white;
+    background:orange;
+    color:black;
     position: fixed;
     bottom: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    height: 4vh;
     width: 100%;
-    display: flex;
-    padding: 0 10px;
   }
   
   h4 {
@@ -109,10 +116,26 @@ main video{
     width: 90%;
     margin: 10%;
     min-height: 10%;
-    padding: 0 10px;
-
-    
-    
+    padding: 0 10px;  
     
 }
 
+    
+h3 {
+    font-size: 100%;
+}
+@media screen  and (max-device-width : 480px) {
+    .painel-de-videos {
+        grid-template-columns: 1fr; 
+    }
+    footer{
+        position: static;
+    } 
+    video {
+        width: 50vh;
+    }
+}
+    
+h2 {
+    font-size: 100%;
+}
