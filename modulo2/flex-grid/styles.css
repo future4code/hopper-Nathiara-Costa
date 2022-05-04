@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+header{
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: space-between;
+    padding: 0px 0;
+
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin: 0 10px;
+}
+
+.logotipo{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.login{
+    display: flex;
+    padding: 20px 20px;
+    margin: 0 5px;
+    font-size: 100px;
+}
+
+button {
+    height: 20px;
+    width: 50px;
+}
+
+.logo img{
+    width: 20px;  
+    margin: 0 10px;
+    display: flex;
+}
+
+.setinha img{
+    width: 20px; 
+    display: flex;
+ 
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr
+
+}
+
+.menu {
+    background-color: #f2d0e0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+.menu-inicio{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    margin: 0 10px;
+
+
+}
+
+.menu-produtos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    margin: 0 10px;
+    
+
+}
+
+.menu-carrinho{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    margin: 0 10px;
+
+}
+
+.menu-perfil{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    margin: 0 10px;
+
+}
+
+.logo{
+    display: flex;
+
+}
+
+.bolo{
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+
+          
+}
+
+.produto {
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+
+.produto img {
+    justify-content: center;
+
+}
+
+#bolo{
+    width: 343px; 
+    
+    
+}
+
+#texto{
+    text-align: center;
+    font-size: 25px;
+    padding: 0 0 10px 0;
+}
+
+#texto2{
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: center;
+    padding: 20px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: center;
+    bottom:0;
+    left:0;
+
+}
