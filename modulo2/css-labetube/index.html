@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div>
+        <div class="tela-inteira">
+            <header>
+                <h1>LabeTube</h1>
+                <form action="#" method="post">
+                    <input type="text" name="busca" id="busca" placeholder="Buscar" required>
+                </form>
+            </header>
+            <main>
+                    <section class="painel-de-videos">
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <a href="detalhe.html"><video src="https://storage.googleapis.com/future-apis.appspot.com/1.mp4 " type="video/mp4" alt=""></video></a>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video controls  autoplay="true">
+                              <source src="https://storage.googleapis.com/future-apis.appspot.com/10.mp4"  type="video/mp4"alt="">
+                          </video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <a href="detalhe2.html"><video src="https://storage.googleapis.com/future-apis.appspot.com/9.mp4" type="video/mp4" alt="" ></video></a>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/8.mp4 " type="video/mp4" alt=""></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/7.mp4" type="video/mp4" alt=""></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/6.mp4" type="video/mp4" alt=""></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/5.mp4" type="video/mp4" alt="" ></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                        <div class="box-pagina-principal" onClick={reproduzVideo}>
+                          <video src="https://storage.googleapis.com/future-apis.appspot.com/4.mp4"  type="video/mp4" alt="" ></video>
+                          <h4>{titulo}</h4>
+                        </div>
+                      </section>
+            </main>
+        
+        <footer> 
+            <h3>Videos, Sons e Sensações</h3>
+        </footer>
+        </div>
+    </div>
+   
+</body>
+</html>

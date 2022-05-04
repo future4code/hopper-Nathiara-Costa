@@ -1,0 +1,141 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-origin: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    height: 100vh;
+}
+
+.tela-inteira {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+header{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 4vh;
+    flex-direction: row;
+   
+}
+
+form{
+    font-size: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1vh 3vh;
+
+}
+form input{
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    cursor: pointer;
+}
+
+form :focus{
+    background-color: beige;
+}
+
+main{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 2vh;
+    text-align: center;
+    height: auto;
+}
+main video{
+    width: 100%;
+}
+
+.menu-vertical {
+    flex-basis: 200px;
+    border-right-style: solid;
+    border-right-width: thin;
+  }
+
+.btn-vertical{
+    list-style-type: none; 
+}
+.painel-de-videos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 3vh;
+    column-gap: 3vw;
+    padding: 6vh;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .box-pagina-principal {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 1fr;
+    border-style: solid;
+    border-width: thin;
+    align-items: start;
+    justify-items: stretch;
+  }
+  
+  footer {
+    background:orange;
+    color:black;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    height: 4vh;
+    width: 100%;
+  }
+  
+  h4 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%;
+    margin: 0%;
+    margin-top: 0%;
+    
+  }
+  
+.detalhe{
+    display: grid;
+    width: 90%;
+    margin: 10%;
+    min-height: 10%;
+    padding: 0 10px;  
+    
+}
+
+    
+h3 {
+    font-size: 100%;
+}
+@media screen  and (max-device-width : 480px) {
+    .painel-de-videos {
+        grid-template-columns: 1fr; 
+    }
+    footer{
+        position: static;
+    } 
+    video {
+        width: 50vh;
+    }
+}
+    
+h2 {
+    font-size: 100%;
+}

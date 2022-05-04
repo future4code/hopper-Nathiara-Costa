@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhe do Video</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="tela-inteira">
+            <header>
+                <h1>LabeTube</h1>
+                <form action="#" method="post">
+                    <input type="text" name="busca" id="busca" placeholder="Buscar" required>
+                </form>
+            </header>
+            <main>
+                <section class="detalhe">
+                    <h4>Titulo do Video</h4>
+                    <div onClick={reproduzVideo}>
+                        <video controls autoplay="autoplay">
+                            <source src="https://storage.googleapis.com/future-apis.appspot.com/9.mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <h3>Videos, Sons e Sensações</h3>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
