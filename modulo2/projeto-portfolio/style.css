@@ -1,0 +1,452 @@
+body{
+    background-color: #f6f5f5;
+    margin-right: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+    background-image: url(img/cup-of-coffee.jpg); 
+    
+}
+/*Estilo Navegador*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgb(0,0,0,0.2);
+    padding: 0px 5%;
+
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li a{
+    margin:30px ;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo{
+    font-family: Arial;
+    color: #000000;
+    font-size: 22px;
+}
+
+.active{
+    font-weight: bold;
+    color:#dd5b0f ;
+}
+
+/*Estilo Textos*/
+
+.texto-Inicio p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #363030;
+    font-size: 22px;
+    margin: 30px 60px 35px;
+
+}
+.texto-Inicio p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 50px;
+    margin: 30px 50px 25px;
+    
+}
+
+.texto-Inicio p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #242323;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 30px 50px 25px;
+    
+}
+
+.texto-Inicio {
+    line-height: 0px;
+    margin: 5px 5px 35px;
+}
+
+.texto-Inicio {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, 42%) ;
+}
+
+.texto-Inicio button{
+    width: 130px;
+    height: 42px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 5px 10px;
+    border:2px solid rgb(59, 57, 57);
+    background-color:#838282 ;
+   
+}
+
+.texto-Inicio>button:hover{
+    background-color: #dd5b0f;
+}
+
+.texto-sobre{
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    position: absolute;
+    left: 18%;
+    top: 22%;
+    transform: translate(-13%, 42%) ;
+    line-height:30px;
+    margin: 18px 50px 25px;
+}
+
+.texto-formacao{
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    position:absolute;
+    left: 18%;
+    top: 30%;
+    transform: translate(-13%, 42%) ;
+    line-height:30px;
+    margin: 20px 50px 25px;
+}
+.texto-formacao button{
+    width: 130px;
+    height: 42px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 5px 10px;
+    border:2px solid rgb(59, 57, 57);
+    background-color:#838282 ;
+   
+}
+
+.texto-formacao>button:hover{
+    background-color: #dd5b0f;
+}
+
+.texto-sobre button{
+    width: 130px;
+    height: 42px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px 0px;
+    margin-top: -500px;
+    border:2px solid rgb(59, 57, 57);
+    background-color:#838282 ;
+   
+}
+
+.texto-sobre>button:hover{
+    background-color: #dd5b0f;
+}
+
+
+
+.texto-projetos{
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    position:relative;
+    left: 18%;
+    top: 30%;
+    transform: translate(-13%, 42%) ;
+    line-height:30px;
+    margin: 0px 15% 25px;  
+}
+
+
+.conteudo-detalhes{
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    position:absolute; 
+    left: 1%;
+    top: 30%;
+    line-height:30px;
+    margin: 2px 25% 0px; 
+}
+.conteudo-detalhes a{
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    position:absolute; 
+    left: 1%;
+    top: 30%;
+    line-height:30px;
+    margin: 40px 21% 0px;
+     
+}
+.conteudo-projetos{
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    position:relative; 
+    left: 1%;
+    top: 30%;
+    line-height:30px;
+    margin: 2px 25% 0px; 
+}
+
+li {
+    display:block;
+    text-align: -webkit-match-parent;
+    color: #000;
+    margin: 0px 0px 0px;
+}
+
+.conteudo-projetos>ul li:hover{
+    text-decoration:none;
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    
+    
+    
+}
+
+.texto-habilidades{
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+    position:absolute;
+    left: 16%;
+    top: 10%;
+    transform: translate(-13%, 15%) ;
+    line-height:18px;
+    margin: 20px 50px 25px;
+}
+
+.texto-habilidades h1{
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #000;
+    font-size: 50px;
+    margin: 20px 50px 25px;
+    position:relative;
+    
+}
+
+.texto-habilidades li{
+    margin:30px ;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 25px;
+    font-weight: 700;
+    position:relative;
+}
+
+.texto-contatos{
+    font-family: calibri;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    position:absolute;
+    left: 18%;
+    top: 30%;
+    transform: translate(-13%, 42%) ;
+    line-height:30px;
+    margin: 20px 50px 25px;
+}
+
+/*Estilo da imagem de Fundo do banner*/
+
+.img-perfil{
+    height: 290px;
+    position: absolute;
+    bottom: 25%;
+    left: 35%;
+    transform: translateX(-50%);
+     transform: translateY(-50%);
+    transform: translateZ(-50%);
+}
+
+
+/*Estilos Formulario de Contato*/
+
+.topic-text{
+    font-family: calibri;
+    font-weight: bold;
+    color: #302d2d;
+    font-size: 22px;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    transform: translate(-13%, 2%) ;
+    line-height:30px;
+    margin: 40px 50px 95px;
+    width: 100%;
+    margin-left: 290px;
+    margin-top: -200px ;
+}
+.topic-message{
+    font-family: myriad pro regular;
+    color: #c0b7b7;
+    font-size: 30px;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    transform: translate(-13%, 0%) ;
+    line-height:30px;
+    margin: 40px 50px 95px;
+    width: 100%;
+    margin-left: 150px;
+    margin-top: -150px ;
+}
+
+ .right-side{
+    width: 75%;
+    margin-left: 100px;
+    position:absolute;
+    left: 18%;
+    top: 30%;
+    transform: translate(-13%, 42%) ;
+    line-height:30px;
+    margin: 40px 50px 25px;
+  }
+  
+  .right-side .input-box{
+    height: 50px;
+    width: 50%;
+    margin: 20px 20px 10px;
+    margin-top: -0px ;
+    margin-left: 60px;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 65%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0px 0px 0px;
+    resize: none;
+    line-height:30px;
+    margin: 30px 40px 15px;
+    top: 30%;
+    left: 18%;
+    margin-left: -10px;
+    margin-top: -10px ;
+    
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 10px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 0px;
+  }
+  .right-side .button input[type="button"]{
+    width: 130px;
+    height: 42px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 0px;
+    border:2px solid rgb(59, 57, 57);
+    background-color:#838282 ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="button"]:hover{
+    background:#dd5b0f;
+  }
+
+  .social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #313233;
+    background-image: url(img/github.png);
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #125283;
+}
+
